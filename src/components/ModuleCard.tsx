@@ -110,15 +110,15 @@ const ModuleCard: React.FC<ModuleCardProps> = ({ module }) => {
           <div className="flex flex-wrap items-center gap-3 lg:space-x-4 text-xs lg:text-sm mt-4 lg:mt-8">
             <div className="flex items-center space-x-1 text-gray-800">
               <BookOpen size={16} className="text-blue-800 flex-shrink-0" />
-              <span>{module.submissions || 0} Topics</span>
+              <span>{module.topics || 0} Topics</span>
             </div>
             <div className="flex items-center space-x-1 text-gray-800">
               <GraduationCap size={16} className="text-amber-600 flex-shrink-0" />
-              <span>{module.pendingReviews || 0} Students</span>
+              <span>{module.students || 0} Students</span>
             </div>
             <div className="flex items-center space-x-1 text-gray-800">
               <Clock size={16} className="text-amber-600 flex-shrink-0" />
-              <span>{module.pendingReviews || 0} Hours</span>
+              <span>{module.hours || 0} Hours</span>
             </div>
           </div>
         </div>

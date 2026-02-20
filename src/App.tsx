@@ -27,8 +27,9 @@ function App() {
       status: 'active',
       linkStatus: 'valid',
       description: 'A comprehensive corporate project integrating leadership principles, strategic thinking, and organizational transformation.',
-      submissions: 38,
-      pendingReviews: 9,
+      topics: 12,
+      students: 35,
+      hours: 2,
       hasAccess: true
     },
     {
@@ -43,8 +44,9 @@ function App() {
       status: 'active',
       linkStatus: 'Invitation Sent',
       description: 'A comprehensive corporate project integrating leadership principles, strategic thinking, and organizational transformation.',
-      submissions: 38,
-      pendingReviews: 9,
+      topics: 10,
+      students: 32,
+      hours: 2,
       hasAccess: true
     },
     {
@@ -59,8 +61,9 @@ function App() {
       status: 'active',
       linkStatus: 'expired',
       description: 'A comprehensive corporate project integrating leadership principles, strategic thinking, and organizational transformation.',
-      submissions: 38,
-      pendingReviews: 9
+      topics: 12,
+      students: 35,
+      hours: 2,
     },
     {
       id: '4',
@@ -83,8 +86,9 @@ function App() {
       status: 'active',
       linkStatus: 'valid',
       description: 'Strategic marketing principles for modern business challenges.',
-      submissions: 25,
-      pendingReviews: 4,
+      topics: 12,
+      students: 35,
+      hours: 2,
       hasAccess: true
     },
     {
@@ -99,8 +103,9 @@ function App() {
       status: 'active',
       linkStatus: 'Invitation Sent',
       description: 'Efficient operations and supply chain management.',
-      submissions: 15,
-      pendingReviews: 7
+      topics: 12,
+      students: 35,
+      hours: 2,
     }
   ]);
 

@@ -10,7 +10,9 @@ interface Module {
   status: "active" | "inactive" | "expired";
   linkStatus?: "valid" | "expired" | "inactive" | "Invitation Sent";
   description: string;
-  submissions?: number;
+  topics?: number;
+  students?: number;
+  hours?: number;
   pendingReviews?: number;
   hasAccess?: boolean;
 }
