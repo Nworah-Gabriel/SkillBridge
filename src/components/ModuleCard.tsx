@@ -113,11 +113,11 @@ const ModuleCard: React.FC<ModuleCardProps> = ({ module }) => {
               <span>{module.topics || 0} Topics</span>
             </div>
             <div className="flex items-center space-x-1 text-gray-800">
-              <GraduationCap size={16} className="text-amber-600 flex-shrink-0" />
+              <GraduationCap size={16} className="text-blue-800 flex-shrink-0" />
               <span>{module.students || 0} Students</span>
             </div>
             <div className="flex items-center space-x-1 text-gray-800">
-              <Clock size={16} className="text-amber-600 flex-shrink-0" />
+              <Clock size={16} className="text-blue-800 flex-shrink-0" />
               <span>{module.hours || 0} Hours</span>
             </div>
           </div>
