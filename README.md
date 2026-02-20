@@ -1,4 +1,4 @@
-# Educational Dashboard - React + TypeScript Implementation
+# SkillBridge - React + TypeScript Implementation
 
 This is a pixel-perfect implementation of an educational administration dashboard based on the provided Figma design.
 
